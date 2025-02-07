@@ -6,6 +6,7 @@ Este projeto é um sistema de agendamento de salas de reuniões desenvolvido em 
 
 - PHP
 - MySQL
+- XAMPP (para ambiente de desenvolvimento)
 - HTML, CSS e JavaScript
 - Bootstrap (para estilização)
 
@@ -27,25 +28,21 @@ Este projeto é um sistema de agendamento de salas de reuniões desenvolvido em 
    ```sh
    cd nome-do-repositorio
    ```
-3. Configure o banco de dados MySQL:
-   - Crie um banco de dados chamado `agendamentos`.
+3. Configure o banco de dados MySQL no XAMPP:
+   - Inicie o Apache e o MySQL no painel do XAMPP.
+   - Acesse `http://localhost/phpmyadmin` e crie um banco de dados chamado `agendamentos`.
    - Importe o arquivo `database.sql` para criar as tabelas necessárias.
    
 4. Configure a conexão com o banco no arquivo `config.php`:
    ```php
    define('DB_HOST', 'localhost');
-   define('DB_USER', 'seu_usuario');
-   define('DB_PASS', 'sua_senha');
+   define('DB_USER', 'root');
+   define('DB_PASS', '');
    define('DB_NAME', 'agendamentos');
    ```
-5. Inicie um servidor local:
-   ```sh
-   php -S localhost:8000
-   ```
+5. Mova os arquivos do projeto para a pasta `htdocs` do XAMPP.
 6. Acesse o sistema no navegador:
    ```
-   http://localhost:8000
+   http://localhost/nome-do-repositorio
    ```
-
-
 
