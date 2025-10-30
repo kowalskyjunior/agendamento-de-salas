@@ -22,7 +22,7 @@ Este projeto é um sistema de agendamento de salas de reuniões desenvolvido em 
 
 1. Clone o repositório:
    ```sh
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   git clone https://github.com/kowalskyjunior/agendamento-de-salas.git
    ```
 2. Entre no diretório do projeto:
    ```sh
@@ -43,6 +43,6 @@ Este projeto é um sistema de agendamento de salas de reuniões desenvolvido em 
 5. Mova os arquivos do projeto para a pasta `htdocs` do XAMPP.
 6. Acesse o sistema no navegador:
    ```
-   http://localhost/nome-do-repositorio
+   http://localhost/agendamento-de-salas
    ```
 
